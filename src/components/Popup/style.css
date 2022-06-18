@@ -1,0 +1,72 @@
+.popup {
+    background-color: white;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 83px;
+    padding: 76px 174px;
+    text-align: center;
+    min-height: 543px;
+    position: relative;
+  }
+  
+  .close {
+    width: 32px;
+    height: 32px;
+    background-color: #639005;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
+  .close img {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .headline {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+  }
+  
+  .description {
+    max-width: 312px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .display-input, .btn {
+    max-width: 350px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 13px 11px;
+    background: #EDEDED;
+    border: none;
+    font-weight: 400;
+  }
+  
+  .validation {
+    max-width: 350px;
+    width: 100%;
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    color: #EA0F0F;
+    margin: 1px auto;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    background-color: #639005;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+  }
